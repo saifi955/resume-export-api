@@ -1,9 +1,13 @@
 {
   "name": "resume-export-api",
   "version": "1.0.0",
+  "description": "API to export resume HTML to PDF or DOCX",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "engines": {
+    "node": "22.x"
   },
   "dependencies": {
     "express": "^4.18.2",
